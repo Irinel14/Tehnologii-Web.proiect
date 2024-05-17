@@ -1,55 +1,108 @@
 /* Stiluri pentru fundal, font și meniu */
+
 body {
-    background-color: black; /* Fundal negru */
-    color: white; /* Text alb */
-    font-family: Arial, sans-serif; /* Font Arial sau un font similar */
-    margin: 0; /* Eliminăm marginile implicite ale corpului paginii */
-    padding: 0; /* Eliminăm padding-ul implicite ale corpului paginii */
+    background-color: black;
+    /* Fundal negru */
+    color: white;
+    /* Text alb */
+    font-family: Arial, sans-serif;
+    /* Font Arial sau un font similar */
+    margin: 0;
+    /* Eliminăm marginile implicite ale corpului paginii */
+    padding: 0;
+    /* Eliminăm padding-ul implicite ale corpului paginii */
 }
 
 header {
-    background-color: #333; /* Fundal gri închis pentru antet */
-    color: white; /* Text alb */
-    padding: 20px; /* Spațiere între elementele din antet */
-    text-align: center; /* Aliniere text în centru */
+    background-color: #333;
+    /* Fundal gri închis pentru antet */
+    color: white;
+    /* Text alb */
+    padding: 20px;
+    /* Spațiere între elementele din antet */
+    text-align: center;
+    /* Aliniere text în centru */
 }
 
 nav ul {
-    list-style-type: none; /* Eliminăm marcatorul implicit al listei */
-    margin: 0; /* Eliminăm marginile implicite ale listei */
-    padding: 0; /* Eliminăm padding-ul implicite ale listei */
+    list-style-type: none;
+    /* Eliminăm marcatorul implicit al listei */
+    margin: 0;
+    /* Eliminăm marginile implicite ale listei */
+    padding: 0;
+    /* Eliminăm padding-ul implicite ale listei */
 }
 
 nav ul li {
-    display: inline; /* Elementele listei să fie afișate pe aceeași linie */
-    margin-right: 20px; /* Spațiere între elementele listei */
+    display: inline;
+    /* Elementele listei să fie afișate pe aceeași linie */
+    margin-right: 20px;
+    /* Spațiere între elementele listei */
 }
 
 nav ul li a {
-    color: white; /* Text alb pentru link-uri */
-    text-decoration: none; /* Eliminăm sublinierea link-urilor */
+    color: white;
+    /* Text alb pentru link-uri */
+    text-decoration: none;
+    /* Eliminăm sublinierea link-urilor */
 }
 
 main {
-    padding: 20px; /* Spațiere între elementele din conținut */
+    padding: 20px;
+    /* Spațiere între elementele din conținut */
 }
 
 footer {
-    background-color: #333; /* Fundal gri închis pentru subsol */
-    color: white; /* Text alb */
-    padding: 20px; /* Spațiere între elementele din subsol */
-    text-align: center; /* Aliniere text în centru */
+    background-color: #333;
+    /* Fundal gri închis pentru subsol */
+    color: white;
+    /* Text alb */
+    padding: 20px;
+    /* Spațiere între elementele din subsol */
+    text-align: center;
+    /* Aliniere text în centru */
 }
 
+
 /* Stiluri pentru centrarea mesajului de bun venit */
+
 .welcome-message {
-    text-align: center; /* Aliniere orizontală a textului în centru */
-    margin-top: 20vh; /* Margine de sus pentru a centra vertical */
-    font-size: 3em; /* Mărimea textului pentru mesajul de bun venit */
+    text-align: center;
+    /* Aliniere orizontală a textului în centru */
+    margin-top: 20vh;
+    /* Margine de sus pentru a centra vertical */
+    font-size: 3em;
+    /* Mărimea textului pentru mesajul de bun venit */
 }
 
 .info {
-    text-align: center; /* Aliniere orizontală a textului în centru */
-    margin-top: 20px; /* Spațierea între mesajul de bun venit și paragraf */
+    text-align: center;
+    /* Aliniere orizontală a textului în centru */
+    margin-top: 20px;
+    /* Spațierea între mesajul de bun venit și paragraf */
 }
 
+
+/* Stiluri pentru galerie */
+
+.gallery {
+    text-align: center;
+    /* Aliniere orizontală a conținutului în centru */
+    margin: 20px auto;
+    /* Margine automată pentru a centra pe pagină */
+}
+
+.gallery-image {
+    display: inline-block;
+    /* Afișare inline-block pentru a permite setarea marginilor */
+    margin: 10px;
+    /* Margine între imagini */
+    max-width: 300px;
+    /* Dimensiune maximă pentru lățimea imaginii */
+    max-height: 300px;
+    /* Dimensiune maximă pentru înălțimea imaginii */
+    width: auto;
+    /* Lățimea automată pentru a păstra proporțiile */
+    height: auto;
+    /* Înălțimea automată pentru a păstra proporțiile */
+}
